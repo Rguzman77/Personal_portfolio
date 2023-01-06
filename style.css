@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+    border:0;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+   
+    font-family: 'JetBrains Mono', monospace;
+}
+.herotitle{
+    display:none;
+}
+h2{
+    font-family:'JetBrains Mono', monospace;
+    color:#FFFFFF;
+    font-size: 40px;
+    margin-top: 50px;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+.unstyle{
+    all:unset;
+    
+}
+header{
+    display:flex;
+    align-items: center;
+
+}
+nav{
+    background-color: #FFFFFF;
+    height: 39px;
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.about-me{
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+p{
+    color:#FFFFFF;
+
+}
+
+#mail_button{
+    color: #FFFFFF;
+    
+}
+#mail_button:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;    
+}
+a:hover{
+    cursor:pointer;
+}
+#linkedin_footer_button{
+    height: 12em;
+    width: 12em;
+    
+}
+#whatsapp_footer_button{
+    height: 12em;
+    width: 12em ;
+}
+#send_mail{
+    padding-top: 10px;
+    height: 12em;
+    width: 12em;
+}
