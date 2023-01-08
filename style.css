@@ -12,11 +12,18 @@
 .herotitle{
     display:none;
 }
+.photo{
+    margin-left: 7vw;
+}
+.about-me>p{
+    margin-right:5vw;
+}
 h2{
     font-family:'JetBrains Mono', monospace;
     color:#FFFFFF;
     font-size: 40px;
     margin-top: 50px;
+    margin-left: 15vw;
 }
 body {
     min-height: 100vh;
@@ -33,6 +40,7 @@ header{
     align-items: center;
 
 }
+
 nav{
     background-color: #FFFFFF;
     height: 39px;
@@ -52,6 +60,20 @@ p{
     color:#FFFFFF;
 
 }
+#carouselId{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 50vw;
+    width: 70vw;
+    
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230f0f0f0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230f0f0f0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
 
 #mail_button{
     color: #FFFFFF;
@@ -61,6 +83,7 @@ p{
     cursor: pointer;
 }
 footer{
+    padding-top: 5vw;
     display: flex;
     justify-content: space-evenly;    
 }
@@ -80,4 +103,20 @@ a:hover{
     padding-top: 10px;
     height: 12em;
     width: 12em;
+}
+/*
+.about-me{
+    display:flex;
+}
+.projects-container{
+    display:none;
+}
+.clients-container{
+    display:none;
+}
+.cv-container{
+    display:none;
+}
+.contact-container{
+    display:none;
 }
